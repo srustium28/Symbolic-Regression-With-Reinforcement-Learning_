@@ -32,7 +32,7 @@ def create_grammar(num_variables: int = 3) -> Dict[str, List[List[str]]]:
         ],
         "A": [["X"], ["C"], ["(", "E", ")"]],
         "X": [[name] for name in variable_names],
-        "C": [["1"], ["2"], ["pi"]],
+        "C": [["1"], ["2"], ["pi"], ["e"]],
     }
 
 
@@ -47,7 +47,7 @@ def create_terminating_rules(num_variables: int = 3) -> Dict[str, List[List[str]
         "U": [["A"]],
         "A": [["X"], ["C"]],
         "X": [[name] for name in variable_names],
-        "C": [["1"], ["2"], ["pi"]],
+        "C": [["1"], ["2"], ["pi"], ["e"]],
     }
 
 
