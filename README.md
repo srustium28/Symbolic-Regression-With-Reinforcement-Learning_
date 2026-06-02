@@ -97,7 +97,7 @@ python -m symbolic_rl.train_reinforce --episodes 80000 --checkpoint-dir runs/bat
 
 **Training curve:**
 
-![Batch1 Training Curve](../runs/batch1/training_curve.png)
+![Batch1 Training Curve](batch1_training_curve.png)
 
 ---
 
@@ -106,7 +106,7 @@ python -m symbolic_rl.train_reinforce --episodes 80000 --checkpoint-dir runs/bat
 
 **Training curve:**
 
-![Batch10 Training Curve](../runs/batch10/training_curve.png)
+![Batch10 Training Curve](batch10_training_curve.png)
 
 ---
 
@@ -115,7 +115,7 @@ python -m symbolic_rl.train_reinforce --episodes 80000 --checkpoint-dir runs/bat
 
 **Training curve:**
 
-![Batch20 Training Curve](../runs/batch20/training_curve.png)
+![Batch20 Training Curve](batch20_training_curve.png)
 
 
 ---
