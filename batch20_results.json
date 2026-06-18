@@ -1,0 +1,131 @@
+============================================================
+VALIDATION  [batch20]   mean reward: -9.244713
+
+Rollouts per equation: 50
+
+
+I.12.5:
+  Best val reward: -5.883722
+  Expression: sq(cos(x1))/neg((1+x2))/cube(tanh((pi)))*cos(x1)/cube(2)*x1*x2+cos(x1)*sq(cos((x1)))*sq(cos(x2))/cube(x1)*x2*x1+cube((2))/2+2
+
+I.15.10:
+  Best val reward: -2.199085
+  Expression: cos(2)*2*sq(cos((1)))*cube(sin(x2))/pi*2/2+neg((x3+x2))/sq(neg((2)))/x3*sq(2)/pi/x2+sq(x2)/sq(neg(2))*x2+pi
+
+I.34.27:
+  Best val reward: -1.730706
+  Expression: neg(pi)/cube(neg(1))*sq(tanh((2)))
+
+I.39.1:
+  Best val reward: -7.892932
+  Expression: cos((1*x2-1+x2))/tanh(2)*sin((pi))/sq(neg(x1))*sq(1)*x1/2-x1/cos((1))*cube(cos(2))*sq(x2)*x2/x1+x2
+
+I.48.20:
+  Best val reward: -92.818607
+  Expression: tanh((1*x2-1-pi))*cube(cos((2+x2)))*sq(tanh(2))/2*sq(2)*x2/1-cube(neg((1+x1)))/sin(x2)/sq(sin(1))/cube(1)+x3
+
+I.8.14:
+  Best val reward: -1.787276
+  Expression: sq(cos(pi))-sq(cos((x4+x3)))*cube(sin((1)))/sq(cos(2))/sq(x4)*2/x2-sq(sin((x4)))/2+cos(pi)/cube(1)/x4*pi+1/x4/pi+2
+
+II.11.28:
+  Best val reward: -0.400336
+  Expression: sq(neg(1))/cube(tanh((pi-x2)))
+
+II.13.23:
+  Best val reward: -1.272781
+  Expression: sin((pi/pi+pi+2))/cube(sin((1-pi)))/cube(tanh((2)))/sin(x3)/cube(x3)*2/2-sin((x3-x2))*sin(pi)/sq(sin(x3))*2+pi
+
+II.3.24:
+  Best val reward: -0.066565
+  Expression: cube(tanh((pi/2-2-x1)))*sq(sin((x1-x1)))-neg(x2)/neg(1)/neg(x2)/cube(x2)/x1/2
+
+II.35.21:
+  Best val reward: -5.283409
+  Expression: sq(cos(x5))*sq(cos((pi+x5)))*cube(cos(x5))*cube(sin(x3))/cube(pi)/1/pi-cube(sin((x1+2)))*sin(x4)/sq(neg(pi))*x3*1/x5-cube(neg(2))/cube(2)*x3+x4
+
+II.6.15b:
+  Best val reward: -0.522008
+  Expression: sq(tanh(x1))*neg((2-1))*x1*1/pi*2+neg((pi-x4))/tanh((x3))/cube(2)/x1/x2/x1+sq(neg(1))*cos(1)/x3+1
+
+III.10.19:
+  Best val reward: -10.105462
+  Expression: 2/tanh((2+x2))*sq(neg(x3))*cube(1)*sq(1)/x3+cube(neg((x2)))/cube(neg(x3))*cube(sin(x3))/x2*2/x2+tanh((x4))*sq(sin(1))/sq(2)/pi+x2
+
+III.14.14:
+  Best val reward: -7.300637
+  Expression: sin(pi)/tanh(2)*1/sq(neg(x3))*x1/x5/2+sq(neg(pi))/cube(neg((pi)))*cube(tanh(x3))*sq(x4)/x4*1+tanh(1)*cube(sin(2))/cube(x4)/x3*x3+pi+x4
+
+III.15.14:
+  Best val reward: -0.780415
+  Expression: tanh((1/pi-x3+x1))
+
+III.8.54:
+  Best val reward: -0.626755
+  Expression: sq(sin((x1/x3-2-x3)))/sq(2)*cos(2)/neg(x1)/sq(2)/pi*1
+
+
+============================================================
+TEST  [batch20]   mean reward: -8.693010.
+Rollouts per equation: 500
+
+
+I.13.4:
+  Best test reward: -19.261987
+  Expression: sq(sin((x1/2-2+2)))+sin(pi)/cube(neg(x4))/sq(sin(1))/cube(x1)/x1/x3-sq(neg((1)))*sq(tanh(pi))*sq(pi)/x4*2+cube(sin(1))*cube(pi)*x1+pi
+
+I.15.3t:
+  Best test reward: -0.383697
+  Expression: sq(cos((2/1+x4+pi)))*sq(sin(2))/cube(tanh(pi))/sq(tanh(x4))/x2*pi/x4-cube(neg((x4-x4)))/cube(cos((2)))/cube(cos(x3))/x4*x3*1+x4
+
+I.15.3x:
+  Best test reward: -1.802212
+  Expression: sin(pi)/sin((pi+2))/sq(tanh((pi)))*cube(cos(pi))/x2*x3*2+(x4+x1)*sin((x2))/cube(2)/pi/x1+cube(tanh(2))*pi+pi
+
+I.16.6:
+  Best test reward: -0.496172
+  Expression: tanh((x2/2+2+pi))*sin(x3)*cos(x3)/tanh(x1)/1/x2/x2+cube(neg((x1-x2)))*sq(cos((x1)))*sq(sin(pi))*x1/1*x1+x1
+
+I.25.13:
+  Best test reward: -0.874311
+  Expression: sq(x1)/neg(x2)/sq(neg((x2)))/sq(x1)/cube(x2)/1/x2-neg((2+x2))*sq(sin(pi))*neg(x2)/cube(2)/x1*x2+sq(neg((2)))/sq(neg(x2))*1+1
+
+I.29.16:
+  Best test reward: -2.086475
+  Expression: cos((x4*1+x3+2))/sq(cos(pi))*neg(pi)*sq(sin(pi))*cube(x4)/2*x3+sq(tanh(x3))*sq(sin((x1)))/tanh(x3)*x1/pi/2+cube(cos(x4))/x2+x1
+
+I.39.11:
+  Best test reward: -2.199815
+  Expression: sq(sin(2))/sq((2-1))/sq(sin((pi)))*sq(sin(pi))*sq(x2)/x1/1-sin((pi+x2))*(x1)*sin(2)/sq(2)/pi*x1+x3
+
+I.39.22:
+  Best test reward: -8.847458
+  Expression: sq(1)+cube(sin((x1-pi)))/sq((pi))*cube(sin(2))*sq(2)*x2*x2+tanh((pi))/pi/sq(2)*x2*x3-cube(neg(2))*sq(2)/2/x3+1
+
+I.43.43:
+  Best test reward: -1.434522
+  Expression: sq(tanh((x3/1+pi-x3)))*sin(x1)*sq((1))/sq(x4)/x3-(x2+2)/cube(neg((x3)))/x1/2*2+cos(x3)*1+2
+
+I.6.2a:
+  Best test reward: -0.056212
+  Expression: sq(cos(pi))*neg(1)/x1/neg(2)/sq(x1)/pi*x1
+
+II.11.27:
+  Best test reward: -0.623756
+  Expression: sq(cos((2/x3-1)))*cube(sin((2+2)))*sq(neg(1))/sq(pi)*pi/pi/x3+sq(neg((2-2)))*tanh(pi)/tanh(x3)*sq(2)*x2*x1+x2
+
+II.24.17:
+  Best test reward: -0.907979
+  Expression: cube(cos((1*x3)))/sq(neg((x2+pi)))/sin(2)*neg(x1)/x1*x1*2+sq(sin(x1))*cos(2)/cube(x3)/sq(pi)*x2*1+cube(cos((2)))*x2+pi
+
+II.27.16:
+  Best test reward: -78.517021
+  Expression: cube(x2)/sq(sin(2))/cube(neg(x1))*cube(2)*1/x2/1-sin((2+2))/cube(neg(x3))/cube(pi)*cube(x1)*1/x1-neg((x1))*cube(2)*x3*1-pi
+
+II.27.18:
+  Best test reward: -12.580290
+  Expression: sq(neg(x2))/sq(tanh(x2))*sq(cos(x2))*neg(x1)/cube(2)*1*2+sq(neg((x2+x1)))*sq(neg((1)))/x2/sq(x2)*x1/2+x1/sq(cos(1))*sq(x2)/pi+pi
+
+II.38.14:
+  Best test reward: -0.323239
+  Expression: neg((x2*x2))/(1+x2)/sq(2)/cos(2)*sq(2)/x2/x2

@@ -1,0 +1,130 @@
+============================================================
+VALIDATION  [batch1]   mean reward: -11.303401
+Rollouts per equation: 50
+
+
+I.12.5:
+  Best val reward: -9.461391
+  Expression: tanh((x2/x2+2+2))
+
+I.15.10:
+  Best val reward: -4.188880
+  Expression: tanh((2/2+2+2))
+
+I.34.27:
+  Best val reward: -0.918407
+  Expression: tanh((2/2+1+2))
+
+I.39.1:
+  Best val reward: -14.733117
+  Expression: tanh((2/2+2+2))
+
+I.48.20:
+  Best val reward: -100.000000
+  Expression: tanh((x1/x3+x3+x1))
+
+I.8.14:
+  Best val reward: -1.490119
+  Expression: tanh((2/2+2+1))
+
+II.11.28:
+  Best val reward: -0.426801
+  Expression: tanh((2/2+2+2))
+
+II.13.23:
+  Best val reward: -2.457300
+  Expression: tanh((x3/x3+x1+2))
+
+II.3.24:
+  Best val reward: -0.681086
+  Expression: cos((2/x2+x2+2))
+
+II.35.21:
+  Best val reward: -7.607496
+  Expression: tanh((2/1+2+pi))
+
+II.6.15b:
+  Best val reward: -0.497342
+  Expression: tanh((2/2+1-x2))
+
+III.10.19:
+  Best val reward: -17.469225
+  Expression: tanh((2/2+2+pi))
+
+III.14.14:
+  Best val reward: -8.887282
+  Expression: tanh((pi/pi+1+2))
+
+III.15.14:
+  Best val reward: -0.367735
+  Expression: tanh((2/pi+1-2))
+
+III.8.54:
+  Best val reward: -0.364834
+  Expression: tanh((1/2-2+2))
+
+
+  ============================================================
+TEST  [batch1]   mean reward: -15.292120
+Rollouts per equation: 500
+
+
+I.13.4:
+  Best test reward: -52.982852
+  Expression: tanh((2/1+2+2))
+
+I.15.3t:
+  Best test reward: -2.264838
+  Expression: tanh((2/1+2+2))
+
+I.15.3x:
+  Best test reward: -4.567506
+  Expression: tanh((2/2+x1-1))
+
+I.16.6:
+  Best test reward: -2.115537
+  Expression: tanh((2/1+2+2))
+
+I.25.13:
+  Best test reward: -0.792845
+  Expression: tanh((x2/x2+x1-2))
+
+I.29.16:
+  Best test reward: -3.376496
+  Expression: tanh((2/1+2+2))
+
+I.39.11:
+  Best test reward: -4.387489
+  Expression: tanh((2/1+2+2))
+
+I.39.22:
+  Best test reward: -14.831737
+  Expression: tanh((2/1+2+1))
+
+I.43.43:
+  Best test reward: -1.729465
+  Expression: tanh((1/1+x2-1))
+
+I.6.2a:
+  Best test reward: -0.227350
+  Expression: tanh((x1/2+1-x1))
+
+II.11.27:
+  Best test reward: -0.559918
+  Expression: tanh((x2/pi+x2+x1))
+
+II.24.17:
+  Best test reward: -2.484301
+  Expression: tanh((2/1+2+2))
+
+II.27.16:
+  Best test reward: -100.000000
+  Expression: tanh((x1/pi+pi+x2))
+
+II.27.18:
+  Best test reward: -38.886422
+  Expression: tanh((2/1+2+2))
+
+II.38.14:
+  Best test reward: -0.175050
+  Expression: tanh((1/x2+x2-x2))
